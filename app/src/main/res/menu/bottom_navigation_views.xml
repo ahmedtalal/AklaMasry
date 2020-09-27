@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all_id"
+        android:title="@string/toobarTitle"
+        android:icon="@drawable/ic_menu"
+        />
+
+    <item
+        android:id="@+id/monasapa"
+        android:title="@string/monasapat"
+        android:icon="@drawable/ic_apportunity"
+        />
+    <item
+        android:id="@+id/favorite"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_favourite"
+        />
+
+</menu>

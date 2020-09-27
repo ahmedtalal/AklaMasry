@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">اكلات مصريه</string>
+    <string name="descriptionAkla">تطبيق لوصف الاكلات المصريه</string>
+    <string name="userName">ادخل الاسم الخاص بك</string>
+    <string name="titleRegister">صفحه تسجيل الدخول لاول مره</string>
+    <string name="titleLogin">صفحه إعاده تسجيل الدخول </string>
+    <string name="resetPassword">صفحه اعاده تعين كلمه السر</string>
+    <string name="password">كلمه السر</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="registerTitle">تسجيل الدخول</string>
+    <string name="loginTitle">هل لديك حساب ؟</string>
+    <string name="regTitle">هل ليس لديك حساب ؟</string>
+    <string name="loginLink">تسجيل</string>
+    <string name="forgotPass">إعاده تعين كلمه السر</string>
+    <string name="send">ارسال</string>
+    <string name="message">قم بادخال البريد الالكتروني الخاص بك ثم بعد ذالك سوف يصلك رساله عبر البريد الالكتروني الذي ادخلته لكي تقوم بتغير كلمه السر</string>
+    <string name="aklaName">اسم الاكله</string>
+    <string name="elamakader">المقادير</string>
+    <string name="addProduct">اضافه منتج</string>
+    <string name="way">طريق التحضير</string>
+    <string name="toobarTitle">اكلات مصريه</string>
+    <string name="share">المشاركه مع صديق</string>
+    <string name="rating">تقيمك</string>
+    <string name="contact">اتصل بنا</string>
+    <string name="about">معلومات عنا</string>
+    <string name="titleHeader">اكلات مصريه</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="monasapat">مناسبات</string>
+    <string name="favorite">المفضله</string>
+    <string name="more">المزيد من المعلومات</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="addFeedback">اضافه تعليق</string>
+    <string name="allreviews">جميع التعليقات</string>
+    <string name="giveUs">اعطنا رأيك عن هذه الوصفه</string>
+    <string name="addHere">قم باضافه تعليقك هنا</string>
+    <string name="adding">اضافه</string>
+    <string name="eidOm">مناسبه عيد الام</string>
+    <string name="eidlove">مناسبه عيد الحب</string>
+    <string name="ramadan">مناسبه رمضان</string>
+    <string name="eidAdha">مناسبه عيد الاضحي</string>
+    <string name="eidmelad">مناسبه اعياد الميلاد</string>
+    <string name="eidracSana">مناسبه رأس السنه</string>
+    <string name="eidzawag">مناسبه الزواج</string>
+
+    <string name="produce">نقدم اليك افضل انواع الاكلات المناسبه لعيد الام</string>
+    <string name="produce2">نقدم اليك افضل انواع الاكلات المناسبه لعيد الحب</string>
+    <string name="produce3">نقدم اليك افضل انواع الاكلات المناسبه لعيد الاضحي</string>
+    <string name="produce4">نقدم اليك افضل انواع الاكلات المناسبه لاعياد الميلاد</string>
+    <string name="produce5">نقدم اليك افضل انواع الاكلات المناسبه للزواج</string>
+    <string name="produce6">نقدم اليك افضل انواع الاكلات المناسبه لرأس السنه</string>
+    <string name="produce7">نقدم اليك افضل انواع الاكلات المناسبه لشهر رمضان </string>
+
+    <string name="moreBtn1">المزيد من المعلومات</string>
+</resources>

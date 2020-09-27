@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".UI.Activities.DashboardActivity"
+                    >
+                    <RelativeLayout
+                        android:layout_width="153dp"
+                        android:layout_height="130dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/relative_id">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/aklaImage_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_akla"
+                            app:civ_border_color="#C6C5C5"
+                            app:civ_border_width="1.5dp" />
+
+                        <ImageView
+                            android:id="@+id/camera_id"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignRight="@id/aklaImage_id"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_camera" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/linear_id"
+                        android:layout_below="@id/relative_id">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:id="@+id/nameProduct_id"
+                            android:background="@drawable/rounded_edittext"
+                            android:layout_margin="10dp"
+                            android:hint="@string/aklaName"
+                            android:paddingEnd="8dp"
+                            android:paddingStart="8dp"
+                            android:fontFamily="@font/cight"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:inputType="text"
+                            android:textColor="@color/colorAccent"
+                            android:textColorHint="@color/colorPrimary" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:id="@+id/quantityET_id"
+                            android:background="@drawable/rounded_edittext"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:hint="@string/elamakader"
+                            android:paddingEnd="8dp"
+                            android:paddingStart="5dp"
+                            android:paddingTop="5dp"
+                            android:fontFamily="@font/cight"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:inputType="text"
+                            android:textColor="@color/colorAccent"
+                            android:textColorHint="@color/colorPrimary"
+                            android:gravity="start"
+                            android:scrollbars="vertical"
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:id="@+id/wayET_id"
+                            android:background="@drawable/rounded_edittext"
+                            android:layout_margin="10dp"
+                            android:hint="@string/way"
+                            android:paddingEnd="8dp"
+                            android:paddingStart="5dp"
+                            android:paddingTop="5dp"
+
+                            android:fontFamily="@font/cight"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:inputType="text"
+                            android:textColor="@color/colorAccent"
+                            android:textColorHint="@color/colorPrimary"
+                            android:gravity="start"
+                            android:scrollbars="vertical" />
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:id="@+id/addBTN_id"
+                            android:layout_margin="10dp"
+                            android:padding="10dp"
+                            android:text="@string/addProduct"
+                            android:textStyle="bold"
+                            android:textColor="#FFF"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/cight"
+                            android:background="@drawable/rounded_buuton" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+</layout>

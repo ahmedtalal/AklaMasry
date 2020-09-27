@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UI.Activities.AddfeedbackActivity"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar_review_id"
+            android:theme="@style/Theme.Design.BottomSheetDialog"
+            android:background="@color/colorPrimary"
+            app:title="اضافه تعليق" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:fillViewport="true"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/giveUs"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/cight"
+                    android:padding="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="right" />
+
+                <RatingBar
+                    android:id="@+id/rateFeedback_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="6"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:progressTint="@color/color1"
+                    android:layout_marginBottom="20dp"
+                    android:progressBackgroundTint="@color/colorPrimary" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/name_id"
+                    android:background="@drawable/rounded_edittext"
+                    android:layout_margin="10dp"
+                    android:hint="@string/userName"
+                    android:paddingEnd="8dp"
+                    android:paddingStart="8dp"
+                    android:fontFamily="@font/cight"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/feedbackHere_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scrollbars="vertical"
+                    android:elevation="8dp"
+                    android:hint="@string/addHere"
+                    android:gravity="start"
+                    android:padding="10dp"
+                    android:textColorHint="#B6B5B5"
+                    android:fontFamily="@font/cight"
+                    android:textSize="15sp"
+                    android:maxLength="100" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/addingBTN_id"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="@string/adding"
+                    android:textStyle="bold"
+                    android:textColor="#FFF"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cight"
+                    android:background="@drawable/rounded_buuton"
+                    android:elevation="8dp" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UI.Activities.RegisterActivity"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleRegister"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cight"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@id/linear_id"
+            android:layout_marginBottom="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/linear_id">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/nameET_id"
+                android:background="@drawable/rounded_edittext"
+                android:layout_margin="10dp"
+                android:hint="@string/userName"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:fontFamily="@font/cight"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/emailET_id"
+                android:background="@drawable/rounded_edittext"
+                android:layout_margin="10dp"
+                android:hint="@string/email"
+                android:paddingEnd="8dp"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/cight"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/passwordET_id"
+                android:background="@drawable/rounded_edittext"
+                android:layout_margin="10dp"
+                android:hint="@string/password"
+                android:paddingEnd="8dp"
+                android:paddingStart="5dp"
+                android:fontFamily="@font/cight"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:inputType="textWebPassword"
+                android:gravity="right|center"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textDirection="ltr"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/registerBTN_id"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="@string/registerTitle"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:fontFamily="@font/cight"
+                android:background="@drawable/rounded_buuton" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/loginLink"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/cight"
+                    android:textColor="@color/color1"
+                    android:gravity="right"
+                    android:id="@+id/loginLink_id" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="@string/loginTitle"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/cight"
+                    android:textColor="#FFF"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>
